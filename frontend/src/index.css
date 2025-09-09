@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+body {
+  @apply bg-gray-50 text-gray-900 font-sans;
+}
+
+/* Component Classes */
+.card {
+  @apply bg-white shadow-md rounded-2xl p-6;
+}
+
+/* Primary Button - Teal */
+.btn-primary {
+  @apply bg-primary-500 text-white font-medium py-2 px-4 rounded-lg hover:bg-primary-600 transition-colors duration-200;
+}
+
+/* Secondary Button - Teal Darker */
+.btn-secondary {
+  @apply bg-secondary-600 text-white font-medium py-2 px-4 rounded-lg hover:bg-secondary-700 transition-colors duration-200;
+}
+
+/* Theme styles */
+.bg-gradient-animate {
+  background: #14b8a6; /* Primary-500 */
+}
+
+.gradient-border {
+  position: relative;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 2px solid #0d9488; /* Secondary-600 */
+}
+
+.gradient-text {
+  color: #0f766e; /* Secondary-700 */
+  background-clip: text;
+  animation: shine 3s linear infinite;
+}
+
+@keyframes shine {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}

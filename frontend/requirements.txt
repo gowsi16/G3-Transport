@@ -1,0 +1,35 @@
+# G3 Transport Frontend Dependencies
+# Node.js version: 16.x or higher
+# React version: 18.x
+
+# Core Dependencies
+react@^18.2.0
+react-dom@^18.2.0
+react-scripts@5.0.1
+
+# UI and Styling
+tailwindcss@^3.3.3
+
+# Charts and Visualization
+chart.js@^4.3.3
+react-chartjs-2@^5.2.0
+
+# HTTP Client
+axios@^1.4.0
+
+# Icons
+lucide-react@^0.263.1
+
+# PDF Generation and Printing
+jspdf@^2.5.1
+html2canvas@^1.4.1
+
+# Installation Instructions:
+# 1. Ensure Node.js 16.x or higher is installed
+# 2. Run: npm install
+# 3. Start development server: npm start
+# 4. Build for production: npm run build
+
+# Browser Requirements:
+# - Modern browsers supporting ES6+
+# - Chrome 60+, Firefox 60+, Safari 12+, Edge 79+
